@@ -19,12 +19,23 @@
 </head>
 
 <body>
+    <!-- Utilizando evento no Html-->
+    <!--
     <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+        interaja
+    </div> -->
+
+    <!-- Utilizando o envento no JS-->
+    <div id="area">
         interaja
     </div>
 
     <script>
         var a = window.document.getElementById('area')
+        // utilizando eventos com eventListener
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
 
         function clicar() {            
             a.innerText = 'Clicou'
