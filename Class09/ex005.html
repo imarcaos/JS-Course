@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09 - Exercício 05</title>
+
+    <style>
+        body {
+            background: rgb(202, 211, 230);
+            color: rgb(52, 52, 143);
+            font: normal 16pt Arial;            
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudo em <br> DOM (Document Object Model)</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique Aqui</div>
+    <script>
+        
+        /*
+        var p1 = window.document.getElementsByTagName('p')[0] //[0] pega o primeiro paragráfo
+        window.document.write('Está escrito assim: ' + p1.innerText) // innerText pega o texto
+        */
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando...'
+
+    </script>
+</body>
+</html>
