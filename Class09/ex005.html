@@ -30,9 +30,18 @@
         */
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
+
+        // Seleciona elemento por ID
+        /*
         var d = window.document.getElementById('msg')
         d.style.background = 'green'
         d.innerText = 'Estou aguardando...'
+        */
+        // Seleciona elemento por Query
+        var d = window.document.querySelector('div#msg') // ID -> usa # e Classe -> usa . - isso é CSS
+        d.style.background = 'gray'
+        d.innerText = 'Estou utilizando o Query...'
+
 
     </script>
 </body>
