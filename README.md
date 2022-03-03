@@ -14,3 +14,4 @@ Aulas anteriores a 4 foram mais teóricas sobre uma introdução a JS e programa
 - Aula 010 - Eventos DOM e funções JS
 - Aula 011 - Condicionais if-else
 - Aula 012 - Condicionais if-else if- else, switch, função Date()
+- Aula 013 - Repetições while e do-while
