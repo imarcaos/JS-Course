@@ -17,3 +17,4 @@ Aulas anteriores a 4 foram mais teóricas sobre uma introdução a JS e programa
 - Aula 013 - Repetições while e do-while
 - Aula 014 - Repetiçoes for e utilizando o modo depuração
 - Aula 015 - Variáveis Compostas Arrays
+- Aula 016 - Funções com Parâmetros
