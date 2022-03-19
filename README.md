@@ -1,6 +1,6 @@
 # Curso de Java Script
 
-Curso de JavaScript para minha revisão e aperfeiçoamento
+Curso Básico de JavaScript para minha revisão e aperfeiçoamento
 Data: 28/02/2022
 
 Aulas anteriores a 4 foram mais teóricas sobre uma introdução a JS e programas necessários neste curso (Navegador Chrome, VSCode e NodeJS) e respectiva instalação.
